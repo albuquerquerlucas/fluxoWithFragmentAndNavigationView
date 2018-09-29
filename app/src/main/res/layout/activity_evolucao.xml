@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".activity.EvolucaoAct">
+
+    <TextView
+        android:id="@+id/txt_title_evolucao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="55dp"
+        android:text="EVOLUÇÃO"
+        android:textStyle="bold"
+        android:gravity="center"/>
+
+    <EditText
+        android:id="@+id/edt_descritivo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textFontWeight="2"
+        android:layout_marginTop="8dp"
+        android:hint="Descritivo da evolução"
+        android:layout_below="@+id/txt_title_evolucao"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SALVAR"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/edt_descritivo"
+        android:onClick="goToPrincipal"/>
+</RelativeLayout>

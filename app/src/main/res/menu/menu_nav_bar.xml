@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/menu_contexto_1"
+            android:title="Contexto 1"
+            android:icon="@drawable/ic_action_c1"/>
+        <item
+            android:id="@+id/menu_contexto_2"
+            android:title="Contexto 2"
+            android:icon="@drawable/ic_action_c2"/>
+        <item
+            android:id="@+id/menu_contexto_3"
+            android:title="Contexto 3"
+            android:icon="@drawable/ic_action_c3"/>
+    </group>
+
+    <item android:id="@+id/menu_sair"
+        android:title="Sair"
+        android:icon="@drawable/ic_action_exit"/>
+
+</menu>
